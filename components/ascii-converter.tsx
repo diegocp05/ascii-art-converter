@@ -65,7 +65,7 @@ export function AsciiConverter() {
         const b = pixels[offset + 2]
 
         const brightness = (r + g + b) / 3
-        const adjustedBrightness = invertColors ? 255 - brightness : brightness
+        const adjustedBrightness = !invertColors ? 255 - brightness : brightness
         const charIndex = Math.floor((adjustedBrightness / 255) * (chars.length - 1))
         const char = chars[charIndex]
 
