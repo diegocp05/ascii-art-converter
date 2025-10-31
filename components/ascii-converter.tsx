@@ -311,10 +311,6 @@ export function AsciiConverter() {
 
         <canvas ref={canvasRef} className="hidden" />
       </div>
-       <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
-            Transforme <span className="text-primary">TESTE</span> em{" "}
-            <span className="text-secondary">Arte ASCII</span>
-          </h1>
     </div>
   )
 }
