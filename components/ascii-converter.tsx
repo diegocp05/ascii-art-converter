@@ -262,7 +262,7 @@ export function AsciiConverter() {
           </Card>
 
           {/* Preview Area */}
-          <Card className="p-6 space-y-6">
+          <Card className="p-6 space-y-6 min-w-0">
             <div className="flex items-center justify-between">
               <div className="space-y-1">
                 <h2 className="text-2xl font-semibold">Resultado</h2>
